@@ -4,9 +4,9 @@ turtle.bgcolor('#EDF0F4')
 turtle.pensize(2)
 turtle.color("blue")
 turtle.begin_fill()
-
+a=2
 cnt=0
-while(cnt<2):
+while(cnt<a):
     
     turtle.forward(250)
     turtle.right(90)
@@ -21,7 +21,7 @@ turtle.pendown()
 turtle.color("yellow")
 turtle.begin_fill()
 cnt=0
-while(cnt<2):
+while(cnt<a):
     
     turtle.forward(84)
     turtle.left(90)
@@ -93,7 +93,7 @@ turtle.pendown()
 turtle.color("brown")
 turtle.begin_fill()
 cnt=0
-while (cnt<2):
+while (cnt<a):
     turtle.forward(30)
     turtle.left(90)
     turtle.forward(130)
@@ -122,6 +122,5 @@ turtle.pendown()
 turtle.begin_fill()
 turtle.circle(-30,steps=3)
 turtle.end_fill()
-
 
 turtle.done()
